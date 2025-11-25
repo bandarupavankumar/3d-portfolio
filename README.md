@@ -1,120 +1,97 @@
-<div align="center">
-  <br />
-  <a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank">
-    <img src="public/images/readme.png" alt="Project Banner">
-  </a>
-  <br />
-  <div>
-    <img src="https://img.shields.io/badge/-Three.js-black?style=for-the-badge&logo=three.js&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
-  <h3 align="center">Interactive 3D Portfolio Website</h3>
-  <div align="center">
-    Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-  </div>
-</div>
+# 3D Portfolio 🌟
 
-## 📋 Table of Contents
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-1. [🤖 Introduction](#introduction)
-2. [⚙️ Tech Stack](#tech-stack)
-3. [🔋 Features](#features)
-4. [🤸 Quick Start](#quick-start)
-5. [🔗 Assets & Snippets](#links)
-6. [🚀 More](#more)
+An immersive 3D portfolio website built with React Three Fiber, showcasing projects, skills, and experience in an interactive 3D environment.
 
-## ⚠️ Tutorial
+## ✨ Features
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+- 🚀 Interactive 3D environment with smooth animations
+- 🎨 Modern UI built with React and Tailwind CSS
+- 📱 Fully responsive design for all screen sizes
+- ⚡ Optimized performance with Vite
+- ✉️ Contact form with EmailJS integration
+- 🌟 Showcase of 3D models and projects
 
-<a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank">
-  <img src="public/images/readme-video-kit.png" alt="Tutorial Thumbnail" />
-</a>
+## 🛠️ Technologies Used
 
-## 🤖 Introduction
+- **Frontend**: React, React Three Fiber, Three.js
+- **Styling**: Tailwind CSS
+- **Animations**: GSAP, Framer Motion
+- **3D Models**: Custom GLB models
+- **Form Handling**: EmailJS
+- **Build Tool**: Vite
 
-The 3D Portfolio project is a highly engaging personal website that features animated 3D scenes, smooth camera transitions, interactive model showcases, and responsive design. It's ideal for developers, designers, or freelancers looking to stand out in the digital crowd.
+## 🚀 Getting Started
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+### Prerequisites
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank">
-  <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" alt="Join our Discord" />
-</a>
+- Node.js (v16 or higher)
+- npm or yarn
 
-## ⚙️ Tech Stack
+### Installation
 
-- Three.js
-- React Three Fiber
-- Drei
-- GSAP
-- Tailwind CSS
-- Vite
-- React 19
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/3d-portfolio.git
+   cd 3d-portfolio
+   ```
 
-## 🔋 Features
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
 
-### Features of the 3D Portfolio Project
-- Animated 3D models and reveal animations
-- Realistic lighting and shadows
-- GSAP-powered scroll interactions
-- Responsive design with Tailwind CSS and Flexbox/Grid
-- Micro Interactions
-- Multi-section layout (About, Projects, Contact)
-- Mobile optimized 3D experience
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## 🤸 Quick Start
+4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
-Follow these steps to set up the project locally on your machine.
+## 🏗️ Project Structure
 
-**Prerequisites**
-Make sure you have the following installed on your machine:
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-```bash
-git clone https://github.com/bandarupavankumar/3d-portfolio.git
-cd 3d-portfolio
+```
+src/
+├── components/    # Reusable components
+├── constants/    # Constants and configurations
+├── sections/     # Page sections
+│   ├── Hero.jsx
+│   ├── TechStack.jsx
+│   ├── Experience.jsx
+│   ├── Projects.jsx
+│   └── Contact.jsx
+├── App.jsx       # Main App component
+└── main.jsx      # Entry point
 ```
 
-**Installation**
-Install the project dependencies using npm:
-```bash
-npm install
-```
+## 📝 Customization
 
-**Set Up Environment Variables**
-Create a new file named `.env` in the root of your project and add the following content:
-```env
-VITE_APP_EMAILJS_SERVICE_ID=
-VITE_APP_EMAILJS_TEMPLATE_ID=
-VITE_APP_EMAILJS_PUBLIC_KEY=
-```
+- Update your personal information in the respective component files
+- Replace 3D models in the `public/models` directory
+- Modify colors and styles in the Tailwind configuration
+- Update project details in the `constants` directory
 
-Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.com/)** credentials.
+## 📄 License
 
-**Running the Project**
-```bash
-npm run dev
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
+## 🙏 Acknowledgments
 
-## 🔗 Assets and Snippets
+- [Three.js](https://threejs.org/) for the amazing 3D library
+- [React Three Fiber](https://github.com/pmndrs/react-three-fiber) for React integration
+- [Drei](https://github.com/pmndrs/drei) for useful Three.js helpers
+- [GSAP](https://greensock.com/gsap/) for smooth animations
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/pfolio25-kit)**.
+## 🌟 Show Your Support
 
-<a href="https://jsm.dev/pfolio25-kit" target="_blank">
-  <img src="public/images/readme-video-kit.png" alt="Video Kit Banner">
-</a>
+Give a ⭐️ if this project helped you!
 
-## � More
-
-**Advance your skills with JSM Pro Courses**
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://beta.jsmastery.pro/" target="_blank">
-  <img src="public/images/readme-bottom.png" alt="JSM Pro Courses">
-</a>
+---
+Built with ❤️ by [Your Name]

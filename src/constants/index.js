@@ -73,12 +73,12 @@ const logoIconsList = [
 
 export const projects = [
   {
-    title: "SaaS Landing Page",
-    imgPath: "/images/project1.png",
+    title: "Top IT Solutions Agency",
+    imgPath: "/images/porject4.png",
     tags: ["React", "TailwindCSS", "Supabase"],
     desc: "A beautiful landing page built with React and Tailwind.",
-    demo: "https://your-demo-link.com",
-    github: "https://github.com/yourname/saas-landing",
+    demo: "https://it-solution-business-responsive-4ax.vercel.app/",
+    github: "https://github.com/bandarupavankumar/IT-Solution-Business-Responsive",
   },
   {
     title: "Orbit Analytics Dashboard",
